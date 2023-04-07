@@ -1,0 +1,32 @@
+.left_main {
+  width: 50%;
+  padding-left: 5rem;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.left_header {
+  width: 70%;
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+.left_desc {
+  margin-left: 2rem;
+  width: 75%;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+/* Responsive  */
+
+@media screen and (max-width: 400px) {
+  .left_header,
+  .left_desc,
+  .left_main {
+    width: 97%;
+    padding-left: 0;
+  }
+}

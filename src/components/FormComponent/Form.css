@@ -1,0 +1,108 @@
+.right {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  margin-right: 3rem;
+}
+.massage {
+  text-align: center;
+  background: #f00000;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0.2rem;
+  color: #fff;
+  box-shadow: 0px 4px 4px 0px #0000005c;
+}
+.form_section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 75%;
+  border-radius: 0.5rem;
+  background: #fff;
+  color: black;
+  margin: 1rem;
+  box-shadow: 0px 4px 4px 0px #0000005c;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.input {
+  margin: 0.7rem 0;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  width: 100%;
+  padding: 0.7rem 1rem;
+}
+.skills {
+  display: flex;
+}
+.selected_skiils {
+  padding: 0.5rem 0.2rem;
+}
+.choose_skill {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  color: #777777;
+  background: #dcdcdc;
+  display: block;
+  border-radius: 0.5rem;
+  width: 4rem;
+  margin: 0 0.3rem;
+}
+.choose_skill img {
+  width: 0.8rem;
+  margin-left: 0.2rem;
+  cursor: pointer;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.8rem 0.3rem;
+  background: #b5b5b5;
+  color: #fff;
+  font-size: 0.7rem;
+  border-radius: 2px;
+  box-shadow: 0px 1px 0px 0px #00000075;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+.btn-active {
+  color: #fff;
+  background-color: green;
+}
+.disabled {
+  pointer-events: none;
+}
+.terms {
+  display: flex;
+  color: #c2c2c2;
+  font-size: 0.6rem;
+}
+.terms p {
+  cursor: pointer;
+  margin-left: 0.2rem;
+  color: #f00000;
+  font-weight: bolder;
+}
+
+/* Responsive */
+@media screen and (max-width: 400px) {
+  .right,
+  .massage,
+  .form_section {
+    width: 95%;
+  }
+  .right {
+    margin-right: 0;
+  }
+  .form_section {
+    height: 80%;
+  }
+}
